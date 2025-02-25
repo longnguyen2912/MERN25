@@ -28,9 +28,9 @@ for (var index = 0; index < 5; index++) {
     
     //settimeout is a timeout function provided to add delay
     setTimeout(function () {
-        console.log("in loop", index)
+        console.log("in loop", index) //expected to execute with incremented value every second but it executes 5 times after 1 sec
     }, 1000) //second parameter is in milli-seconds
     
 }
 
-console.log(index)
+console.log(index) //this should not have accessibility outside of the loop but it is accessible
