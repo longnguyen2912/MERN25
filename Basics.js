@@ -46,4 +46,16 @@ console.log(counter)
 
 //array can be created, and are dynamic
 
+//identifiers/variables - case sensitive
+
 var numbers = [1,2,3,4,5]
+var my_Name = "Some name"
+var My_Name = "Some other name"
+
+//space not allowed, special chars apart from _,$ , others are not allowed
+
+var $myName = "underscore Name",
+_myName = "Dollar Name",
+my_Name5 = "underscore Name"
+
+//5myname - starting from number is not allowed

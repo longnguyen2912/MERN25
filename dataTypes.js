@@ -1,7 +1,7 @@
 //data types are used to distinctly identify the category/size/allocation of data assigned
 
 //six distinct types present in javascript
-//number, string, boolean, undefined, object
+//number, string, boolean, undefined, object, null
 
 var myVar = 1000;
 
